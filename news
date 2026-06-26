@@ -1,0 +1,16 @@
+Ver 2.1 2026/06/25 Sean Whitton
+    In `transient-cycles-shells-jump', match `shell-mode' or `eshell-mode'
+    exactly instead of using `derived-mode-p'.
+
+Ver 2.0 2025/06/25 Sean Whitton
+    New minor mode, `transient-cycles-shells-mode'.
+    New macro `transient-cycles-define-buffer-switch'.
+    New command to restart transient cycling (not bound by default):
+    `transient-cycles-cmd-transient-cycles-siblings-from-here'.
+
+Ver 1.1 2025/02/25 Sean Whitton
+    Replace uses of `when-let' with `when-let*'.
+
+Ver 1.0 2022/04/10 Sean Whitton
+    Initial release.
+    Thanks to Protesilaos Stavrou for testing and docs feedback.
